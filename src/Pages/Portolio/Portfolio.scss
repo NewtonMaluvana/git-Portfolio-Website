@@ -1,0 +1,53 @@
+.porfolio {
+  display: grid;
+  margin: auto;
+  height: 100%;
+  width: 100%;
+}
+.projects {
+  border: 1px solid rgb(120, 8, 161);
+  display: flex;
+  margin: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  justify-content: space-around;
+  border-radius: 7px;
+
+  .img-info {
+    min-width: 30px;
+    width: 45%;
+    height: 100%;
+
+    img {
+      border-radius: 10px;
+      height: 100%;
+      width: 100%;
+      object-fit: contain;
+    }
+  }
+
+  button {
+    width: 80%;
+    min-width: 100px;
+    height: 40px;
+    background-color: orange;
+    border-radius: 7px;
+  }
+}
+.project-info {
+  display: flex;
+  gap: 20px;
+  width: 30%;
+  flex-direction: column;
+  h1 {
+    text-wrap: wrap;
+    font-size: 1.1rem;
+    color: orange;
+    font-weight: bold;
+  }
+  p {
+    color: white;
+    font-weight: 400;
+    font-size: 0.8rem;
+  }
+}

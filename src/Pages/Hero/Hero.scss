@@ -1,0 +1,85 @@
+.hero {
+  height: calc(100vh - 100px);
+  background: transparent;
+  display: flex;
+  padding: 20px;
+  justify-content: space-evenly;
+  img {
+    border-radius: 20px;
+  }
+
+  .btn-cv {
+    background-color: transparent;
+
+    border-radius: 7px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    width: 300px;
+    margin: 10px;
+    height: 50px;
+    border: 1px solid purple;
+  }
+
+  .scroll {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    .scroll-text {
+      font-size: 1rem;
+      color: rgb(118, 12, 156);
+    }
+  }
+  .text-info {
+    width: 50%;
+    text-align: start;
+
+    h1 {
+      color: white;
+      font-size: 3.5rem;
+      font-weight: bold;
+    }
+    h3 {
+      color: rgb(120, 44, 171);
+      font-size: 1.5rem;
+      font-weight: bold;
+      text-wrap: wrap;
+    }
+  }
+}
+
+#btn-contact {
+  width: 200px;
+  min-width: 150px;
+
+  height: 50px;
+
+  border-radius: 7px;
+  margin: 10px;
+  :hover {
+    scale: 1.2;
+  }
+}
+#btn-project {
+  width: 200px;
+  min-width: 150px;
+
+  height: 50px;
+  background-color: transparent;
+  border: 2px solid white;
+  border-radius: 7px;
+  margin: 10px;
+  :hover {
+    scale: 1.2;
+  }
+}
+
+.btns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

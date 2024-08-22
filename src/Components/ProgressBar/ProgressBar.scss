@@ -1,0 +1,25 @@
+.cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(36, 35, 35);
+  border-radius: 7px;
+  flex-direction: column;
+  width: 80%;
+  padding: 5px;
+  box-shadow: 2px 2px black;
+  height: 40dvb;
+  color: black;
+}
+
+.circular::before {
+  content: "";
+  position: absolute;
+  height: 80%;
+  width: 80%;
+  background-color: rgb(185, 185, 199);
+  border-radius: 50%;
+}
+.progress-value {
+  position: relative;
+}

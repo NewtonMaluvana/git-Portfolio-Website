@@ -1,0 +1,46 @@
+.navbar {
+  padding: 10px;
+  height: 100px;
+  width: 100dvw;
+
+  .wrapper {
+    margin: auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    justify-content: space-between;
+
+    h1 {
+      font-size: 2rem;
+      color: orange;
+    }
+    .socials {
+      display: inherit;
+      gap: 20px;
+      a {
+        border: 1px solid orange;
+        border-radius: 50%;
+        padding: 10px;
+      }
+
+      #github-icon {
+        color: white;
+        width: 30px;
+        height: 30px;
+      }
+      #whatsapp-icon {
+        color: rgb(15, 118, 25);
+        width: 30px;
+        height: 30px;
+      }
+
+      #facebook-icon,
+      #linkedin-icon {
+        color: rgb(61, 90, 184);
+        width: 30px;
+        height: 30px;
+      }
+    }
+  }
+}
