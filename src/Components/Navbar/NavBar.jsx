@@ -45,7 +45,7 @@ const NavBar = () => {
               repeatType: "reverse",
             }}
             whileHover={{ scale: 0.5 }}
-            href=""
+            href="https://github.com/NewtonMaluvana"
           >
             <FaGithub id="github-icon" />
           </motion.a>

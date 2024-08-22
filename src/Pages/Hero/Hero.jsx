@@ -44,14 +44,15 @@ const Hero = () => {
           >
             Projects
           </motion.button>
-          <motion.button
+          <motion.a
             transition={{ duration: 1, type: "easiInOut" }}
             whileHover={{ scale: 1.1, backgroundColor: "grey" }}
             id="btn-contact"
             className="bg-orange-400"
+            href="#Contact"
           >
             Contact me
-          </motion.button>
+          </motion.a>
         </motion.div>
         <div className="scroll">
           <p className="scroll-text"> scroll</p>
