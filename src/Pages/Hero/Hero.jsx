@@ -37,13 +37,15 @@ const Hero = () => {
           }}
           className="btns"
         >
-          <motion.button
+          <motion.a
+            className="flex justify-center items-center cursor-pointer"
             transition={{ duration: 1, type: "easiInOut" }}
             whileHover={{ scale: 1.1, borderColor: "orange" }}
             id="btn-project"
+            href="#Projects"
           >
             Projects
-          </motion.button>
+          </motion.a>
           <motion.a
             transition={{ duration: 1, type: "easiInOut" }}
             whileHover={{ scale: 1.1, backgroundColor: "grey" }}

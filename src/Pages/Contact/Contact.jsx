@@ -13,7 +13,7 @@ const Portfolio2 = () => {
           <span className="text-xl text-orange-400">Email:</span>
           <p className="flex gap-2 items-center justify-center md:justify-start">
             <TfiEmail className="text-purple-500" />
-            Sirnewtonnn@gmail.com
+            Sirnewtonnnn@gmail.com
           </p>
         </div>
         <div className="m-8">

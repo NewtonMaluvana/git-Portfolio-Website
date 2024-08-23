@@ -10,6 +10,7 @@ import Portfolio2 from "./Pages/Contact/Contact";
 import Contact from "./Pages/Contact/Contact";
 import NavBar from "./Components/Navbar/NavBar";
 import Skills from "./Pages/Skills/Skills";
+import Certificate from "./Components/Certificate";
 
 function App() {
   const variants = {};
@@ -31,6 +32,9 @@ function App() {
       </motion.section>
       <motion.section id="Services" className="mt-10">
         <Services />
+      </motion.section>
+      <motion.section id="Services" className="mt-10">
+        <Certificate />
       </motion.section>
     </div>
   );
