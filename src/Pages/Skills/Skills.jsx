@@ -21,7 +21,7 @@ const Skills = () => {
       id: 2,
       name: "Flutter",
       logo: <SiFlutter className="w-10" />,
-      endvalue: 88,
+      endvalue: 62,
       color: "black",
       text: "text-blue-300",
     },

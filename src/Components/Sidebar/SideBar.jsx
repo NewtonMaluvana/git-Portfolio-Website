@@ -54,7 +54,14 @@ const SideBar = () => {
     },
   };
 
-  const items = ["Home", "Services", "Skills", "Projects", "Contact"];
+  const items = [
+    "Home",
+    "Services",
+    "Skills",
+    "Certificate",
+    "Projects",
+    "Contact",
+  ];
   return (
     <motion.div animate={toggle ? "open" : "closed"} className="sidebar">
       <motion.div variants={variants} className="case">

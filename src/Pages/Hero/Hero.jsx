@@ -4,8 +4,24 @@ import { motion, reverseEasing } from "framer-motion";
 import "./Hero.scss";
 import { BsArrowDown } from "react-icons/bs";
 import { BiDownload } from "react-icons/bi";
+import { MdMail, MdWork } from "react-icons/md";
+import { GrWorkshop } from "react-icons/gr";
+import { useEffect, useState } from "react";
 
 const Hero = () => {
+  const Name = "Newton Maluvana";
+  var index = 0;
+  var time = 50;
+  const [name, setName] = useState("");
+  const [intro, setIntro] = useState("");
+  useEffect(() => {
+    setTimeout(() => {
+      setIntro("I am");
+      setInterval(() => {
+        setName(Name.substring(0, index++));
+      }, (time += 100));
+    }, 2000);
+  }, [document.onload]);
   return (
     <div className="hero md:flex-row items-center flex-col-reverse h-full text-center md:text-start">
       <motion.div className="text-info">
@@ -17,7 +33,7 @@ const Hero = () => {
           }}
         >
           {" "}
-          I am <span className="text-orange-400">Newton Maluvana</span>
+          {intro} <span className="text-orange-400">{name}</span>
         </motion.h1>
         <motion.h3
           initial={{ translateX: -500 }}
@@ -38,22 +54,22 @@ const Hero = () => {
           className="btns"
         >
           <motion.a
-            className="flex justify-center items-center cursor-pointer"
+            className="flex gap-4 justify-center items-center cursor-pointer"
             transition={{ duration: 1, type: "easiInOut" }}
             whileHover={{ scale: 1.1, borderColor: "orange" }}
             id="btn-project"
             href="#Projects"
           >
-            Projects
+            <MdWork /> Projects
           </motion.a>
           <motion.a
             transition={{ duration: 1, type: "easiInOut" }}
             whileHover={{ scale: 1.1, backgroundColor: "grey" }}
             id="btn-contact"
-            className="bg-orange-400"
+            className="bg-orange-400 flex gap-4"
             href="#Contact"
           >
-            Contact me
+            <MdMail /> Contact me
           </motion.a>
         </motion.div>
         <div className="scroll">
