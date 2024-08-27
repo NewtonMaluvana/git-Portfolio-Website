@@ -59,11 +59,7 @@ const Certificate = () => {
             onMouseLeave={() => setIsOpen(false)}
             onMouseEnter={() => setIsOpen(true)}
           >
-            <Document
-              className=" "
-              file={props.file}
-              onLoadSuccess={onDocumentLoadSuccess}
-            >
+            <Document file={props.file} onLoadSuccess={onDocumentLoadSuccess}>
               <Page
                 renderTextLayer={false}
                 renderAnnotationLayer={false}
