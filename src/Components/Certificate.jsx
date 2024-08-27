@@ -4,6 +4,7 @@ import { Document, Page } from "react-pdf";
 import pdf1 from "/document/Java_cert.pdf";
 import pdf2 from "/document/Php_Certificate.pdf";
 import pdf3 from "/document/Web_Dev.pdf";
+import { motion } from "framer-motion";
 pdfjs.GlobalWorkerOptions.workerSrc = new URL(
   "pdfjs-dist/build/pdf.worker.min.mjs",
   import.meta.url
