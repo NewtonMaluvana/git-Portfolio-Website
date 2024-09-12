@@ -6,14 +6,14 @@ const Portfolio1 = () => {
     {
       id: 1,
       title: "Ecommerce Website",
-      img: "/images/website.png",
+      img: "../../assets/website.png",
       desc: "Fullstack  Ecommerce website ,using typerscript,Nextjs with  user Authorisation by using Auth0,and user cart utility payment gateway using Paypal and mongoDb as a database ",
       url: "https://git-fullstack-ecommerce-website.vercel.app/",
     },
     {
       id: 2,
       title: "Live Gallery App",
-      img: "/images/gallery.png",
+      img: "../../assets/gallery.png",
       desc: "Live Web Gallery for uploading photos,using firebase as database and Auth0 for user Authorisation",
       url: "https://image-gallery-app-dva4.vercel.app/",
     },
@@ -21,7 +21,7 @@ const Portfolio1 = () => {
     {
       id: 3,
       title: "Landing Page",
-      img: "/images/landing.png",
+      img: "../../assets/landing.png",
       desc: "Fully Mobile Responsive landing  Website page,featuring VR reality product,Using React,Tailwind css,Framer  motion and Daisy ui",
       url: "https://vr-landing-page-topaz.vercel.app/",
     },
