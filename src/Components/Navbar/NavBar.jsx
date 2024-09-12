@@ -33,7 +33,8 @@ const NavBar = () => {
               repeatType: "reverse",
             }}
             whileHover={{ scale: 0.5 }}
-            href=""
+            href="https://web.facebook.com/profile.php?id=61557618467562"
+            target="_blank"
           >
             <FaFacebook id="facebook-icon" />
           </motion.a>
@@ -46,6 +47,7 @@ const NavBar = () => {
             }}
             whileHover={{ scale: 0.5 }}
             href="https://github.com/NewtonMaluvana"
+            target="_blank"
           >
             <FaGithub id="github-icon" />
           </motion.a>
@@ -57,22 +59,10 @@ const NavBar = () => {
               repeatType: "reverse",
             }}
             whileHover={{ scale: 0.5 }}
-            href=""
+            href="https://www.linkedin.com/in/newton-maluvana-40baba325/"
+            target="_blank"
           >
             <FaLinkedin id="linkedin-icon" />
-          </motion.a>
-          <motion.a
-            animate={{ translateY: 5 }}
-            transition={{
-              duration: 2,
-              repeat: Infinity,
-              repeatType: "reverse",
-            }}
-            whileHover={{ scale: 0.5 }}
-            drag
-            href=""
-          >
-            <FaWhatsapp id="whatsapp-icon" />
           </motion.a>
         </div>
       </div>

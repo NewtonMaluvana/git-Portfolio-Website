@@ -6,26 +6,24 @@ const Portfolio1 = () => {
     {
       id: 1,
       title: "Ecommerce Website",
-      img: "../../assets/store.png",
-      desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima cupiditate deserunt inventore veritatis animi, recusandae corrupti ",
+      img: "/images/website.png",
+      desc: "Fullstack  Ecommerce website ,using typerscript,Nextjs with  user Authorisation by using Auth0,and user cart utility payment gateway using Paypal and mongoDb as a database ",
+      url: "https://git-fullstack-ecommerce-website.vercel.app/",
     },
     {
       id: 2,
-      title: "Ecommerce Website2",
-      img: "../..src/assets/store.png",
-      desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima cupiditate deserunt inventore veritatis animi, recusandae corrupti ",
+      title: "Live Gallery App",
+      img: "/images/gallery.png",
+      desc: "Live Web Gallery for uploading photos,using firebase as database and Auth0 for user Authorisation",
+      url: "https://image-gallery-app-dva4.vercel.app/",
     },
+
     {
-      id: 2,
-      title: "Ecommerce Website2",
-      img: "../..src/assets/store.png",
-      desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima cupiditate deserunt inventore veritatis animi, recusandae corrupti ",
-    },
-    {
-      id: 2,
-      title: "Ecommerce Website2",
-      img: "../..src/assets/store.png",
-      desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima cupiditate deserunt inventore veritatis animi, recusandae corrupti ",
+      id: 3,
+      title: "Landing Page",
+      img: "/images/landing.png",
+      desc: "Fully Mobile Responsive landing  Website page,featuring VR reality product,Using React,Tailwind css,Framer  motion and Daisy ui",
+      url: "https://vr-landing-page-topaz.vercel.app/",
     },
   ];
 
@@ -39,13 +37,17 @@ const Portfolio1 = () => {
         {projects.map((project) => (
           <div key={project.id} className="projects">
             <div className="img-info">
-              <img src={img} alt="" />
+              <img src={project.img} alt="" />
             </div>
-            <div className="project-info">
+            <div className="project-info flex justify-between">
               <h1>{project.title}</h1>
-              <p>{project.desc}</p>
+              <p className="text-xl">{project.desc}</p>
 
-              <a href="" className="flex justify-center items-center">
+              <a
+                href={project.url}
+                target="_blank"
+                className="flex justify-center items-center"
+              >
                 <button>View Demo</button>
               </a>
             </div>

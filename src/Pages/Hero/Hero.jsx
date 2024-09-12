@@ -104,15 +104,7 @@ const Hero = () => {
             duration: 0.5,
           }}
           className="mt-8"
-        >
-          <motion.button
-            transition={{ duration: 1, type: "easiInOut" }}
-            whileHover={{ scale: 1.1, borderColor: "orange" }}
-            className="btn-cv"
-          >
-            Download CV <BiDownload />
-          </motion.button>
-        </motion.div>
+        ></motion.div>
       </div>
     </div>
   );
