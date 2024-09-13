@@ -12,19 +12,19 @@ function Services() {
     {
       id: 1,
       name: "UI/Figma Design",
-      desc: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi culpa, iusto amet provident odio delectus praesentium dignissimos voluptate ",
+      desc: "I specialize in creating intuitive and visually appealing user interfaces using Figma, a leading design tool. Our service includes wireframing, prototyping, and crafting pixel-perfect design ",
       logo: <FiFigma />,
     },
     {
       id: 2,
       name: "Web development",
-      desc: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi culpa, iusto amet provident odio delectus praesentium dignissimos voluptate ",
+      desc: "I offer  web development services to create responsive, high-performance websites tailored to your business needs. I specializes in front-end and back-end development ",
       logo: <CgWebsite />,
     },
     {
       id: 3,
       name: "App Development",
-      desc: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi culpa, iusto amet provident odio delectus praesentium dignissimos voluptate ",
+      desc: "I provide end-to-end app development services for IOS Android platforms, focusing on delivering high-quality, user-centric mobile applications. ",
       logo: <SiFlutter />,
     },
   ];
